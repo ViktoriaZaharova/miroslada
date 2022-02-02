@@ -1,4 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
+@font-face {
+  font-family: "Itim";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../fonts/Itim/ItimCyrillic.eot");
+  src: url("../fonts/Itim/ItimCyrillic.eot?#iefix") format("embedded-opentype"), url("../fonts/Itim/ItimCyrillic.woff") format("woff"), url("../fonts/Itim/ItimCyrillic.ttf") format("truetype"); }
+
 @font-face {
   font-family: "Raleway";
   font-weight: 700;

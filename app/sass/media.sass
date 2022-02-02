@@ -3,6 +3,18 @@
 /*==========  Desktop First  ==========*/
 
 /* Large Devices, Wide Screens */
+@media only screen and (max-width: 1940px)
+  .category-products-box
+    width: 500px
+    min-width: 500px
+    h3
+      font-size: 64px
+
+@media only screen and (max-width: 1600px)
+  .category-products-box
+    h3
+      font-size: 50px
+
 @media only screen and (max-width: 1540px)
   .menu
     li
@@ -14,6 +26,13 @@
 
   .list-language
     font-size: 18px
+
+@media only screen and (max-width: 1460px)
+  .category-products-box
+    width: 370px
+    min-width: 370px
+    padding: 80px 30px 40px
+    //min-height: 400px
 
 @media only screen and (max-width: 1400px)
   .name-company
@@ -60,6 +79,16 @@
   .page-novelties-content h3
     font-size: 24px
 
+  .category-products-box
+    width: 50%
+    min-width: auto
+    min-height: auto
+    h3
+      font-size: 40px
+
+  .category-products-row
+    height: 50%
+
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px)
   .list-social li a
@@ -98,6 +127,30 @@
     padding: 30px
     h3
       font-size: 22px
+
+  .home h1
+    text-align: center
+    max-width: none
+    font-size: 40px
+    margin: 0 auto 30px
+
+  .home-content
+    padding: 30px 0 50px
+
+  .menu-category
+    margin: 0 auto
+
+  .category-products-row
+    height: auto
+
+  .category-products-box
+    padding: 30px
+    .btn
+      margin: 30px 0 0
+    &:after
+      display: none
+    &:before
+      opacity: .4
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px)
@@ -138,6 +191,11 @@
     padding: 10px 15px
     font-size: 18px
 
+  .menu-category
+    font-size: 18px
+    li
+      margin: 0 0 10px
+
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 576px)
   .phone
@@ -165,6 +223,14 @@
 
   .novelties-card .news-card__body
     padding: 20px
+
+  .category-products-box
+    width: 100%
+    span
+      font-size: 20px
+
+  .category-products-row
+    flex-wrap: wrap
 
 @media only screen and (max-width: 480px)
   footer
