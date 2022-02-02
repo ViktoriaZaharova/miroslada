@@ -1,0 +1,201 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1540px)
+  .menu
+    li
+      margin: 0 20px 0 0
+
+  .name-company
+    max-width: 230px
+    font-size: 11px
+
+  .list-language
+    font-size: 18px
+
+@media only screen and (max-width: 1400px)
+  .name-company
+    margin: 0 20px 0 10px
+    max-width: 160px
+
+  .form-search
+    max-width: 180px
+    margin: 0 20px 0 0
+
+  .buyers-card
+    padding: 30px 20px
+
+@media only screen and (max-width: 1200px)
+  .btn-burger
+    margin: 0 30px
+    width: 28px
+
+    span
+      margin: 0 0 4px
+
+
+  .list-social
+    li
+      margin: 0 20px 0 0
+
+  .btn-lg
+    padding: 0 30px
+    font-size: 18px
+
+  header
+    .menu
+      display: none
+
+  .list-language
+    margin: 0 auto 0 0
+
+  .btn-toggle
+    display: flex
+
+  .col-20
+    width: 25%
+
+  .page-novelties-content h3
+    font-size: 24px
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px)
+  .list-social li a
+    width: 30px
+    height: 30px
+    min-width: 30px
+    padding: 6px
+
+  footer
+    padding: 20px 0
+
+    .logo
+      max-width: 120px
+
+  header
+    .name-company
+      display: none
+
+  .list-language
+    margin: 0 auto
+
+  .col-20
+    width: 33.3%
+
+  .tab-content
+    padding: 20px 0 0
+
+  .page-buyers
+    margin: 0 0 50px
+
+  .page-novelties-content:before
+    width: 100%
+    left: 0
+
+  .page-novelties-content
+    padding: 30px
+    h3
+      font-size: 22px
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px)
+  footer
+    .list-social
+      width: 100%
+      margin: 10px auto 0
+      order: 2
+      justify-content: center
+
+    .logo
+      margin: 0 auto 0 0
+
+  .menu-footer
+    width: 100%
+    order: 1
+    margin: 10px auto 0
+    justify-content: center
+
+  header
+    .form-search
+      display: none
+
+  h1
+    font-size: 24px
+
+  .news-card__body
+    padding: 20px
+
+  .col-20
+    width: 50%
+
+  .btn-border
+    font-size: 18px
+    height: 40px
+
+  .nav-tabs .nav-link
+    padding: 10px 15px
+    font-size: 18px
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 576px)
+  .phone
+    padding: 5px 10px
+    font-size: 12px
+
+  .btn-toggle
+    width: 24px
+    span
+      margin: 0 0 4px
+
+  h1
+    font-size: 24px
+
+  .page h1
+    margin: 0 0 25px
+
+  .col-20
+    width: 100%
+
+  .page-novelties-content
+    padding: 30px 20px
+    h3
+      font-size: 20px
+
+  .novelties-card .news-card__body
+    padding: 20px
+
+@media only screen and (max-width: 480px)
+  footer
+    .logo
+      margin: 0 auto
+
+    .btn
+      margin: 10px auto 0
+      order: 3
+      width: 100%
+      height: 40px
+
+
+  .btn-burger
+    display: none
+
+  header
+    .list-language, .phone
+      display: none
+    .logo
+      margin: 0 auto 0 0
+
+  .logo
+    max-width: 100px
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 420px)
+  .nav-tabs .nav-link
+    width: 100%
+    padding: 0
+    margin: 0 0 10px
+    border: none
+    text-align: center
+

@@ -1,0 +1,218 @@
+@import "fonts"
+@import "vars"
+
+*
+  -webkit-box-sizing: border-box
+  -moz-box-sizing: border-box
+  box-sizing: border-box
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+
+  &:before, &:after
+    -webkit-box-sizing: border-box
+    -moz-box-sizing: border-box
+    box-sizing: border-box
+
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video
+  margin: 0
+  padding: 0
+  border: 0
+  font-size: 100%
+  font: inherit
+  vertical-align: baseline
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section
+  display: block
+
+
+blockquote, q
+  quotes: none
+
+blockquote:before, blockquote:after, q:before, q:after
+  content: ''
+  content: none
+
+table
+  border-collapse: collapse
+  border-spacing: 0
+
+body
+  font-size: 16px
+  min-width: 320px
+  position: relative
+  line-height: normal
+  font-family: $default-font
+  font-weight: normal
+  background: #fff
+  color: #000
+
+html, body
+  overflow-x: hidden
+
+img
+  display: block
+  max-width: 100%
+  height: auto
+
+.text-center
+  text-align: center
+
+a
+  display: block
+  text-decoration: none
+  transition: .3s ease
+  outline: none
+
+  &:hover, &:focus
+    text-decoration: none
+    
+input, textarea, select
+  outline: none
+  box-shadow: none
+  appearance: none
+  padding: 0 10px 4px
+  box-sizing: border-box
+  font-family: $default-font
+  border: none
+    bottom: solid 1px #1d1d1b
+    radius: 0
+  width: 100%
+  font-size: 10px
+  color: #000
+  &::placeholder
+    color: #a8a8a8
+  &:hover
+    outline: none
+    box-shadow: none
+  
+
+label
+  display: block
+  width: 100%
+
+button, .btn
+  outline: none
+  transition: .3s ease
+  cursor: pointer
+  box-shadow: none
+  font-family: $default-font
+  padding: 0
+  margin: 0
+  border: none
+    radius: 0
+
+
+.btn
+  display: flex
+  align-items: center
+  justify-content: center
+  text-align: center
+  border-radius: 18px
+  height: 37px
+  width: fit-content
+  font-weight: bold
+  font-size: 14.3px
+  padding: 0 35px
+
+.btn-xs
+  font-size: 12.2px
+
+.btn-lg
+  height: 51px
+  font-size: 21.6px
+  padding: 0 51px
+  border-radius: 25px
+
+.btn-accent
+  color: #fff
+  background: $accent
+  &:hover
+    background: rgba($accent, .8)
+    color: #fff
+
+.btn-white
+  background: #fff
+  color: $accent
+  box-shadow: 0 5px 10px rgba(#0b0b0b, .3)
+  &:hover
+    color: #fff
+    background: $title
+
+.btn-border
+  color: #323232
+  font-size: 18.2px
+  font-weight: bold
+  height: 46px
+  width: 100%
+  padding: 0 20px
+  border-radius: 23px
+  border: solid 1px #323232
+  &:hover
+    background: $accent
+    color: #fff
+    border-color: $accent
+
+.svg-icon
+  display: inline-block
+  width: 100%
+  height: 100%
+
+strong, b
+  font-weight: bold
+  display: inline-block
+
+.my-ul
+  list-style: none
+
+.container
+  max-width: 1620px
+
+h1
+  font-size: 40px
+  color: $title
+  width: 100%
+  font-family: 'Itim', cursive
+
+h2
+  width: 100%
+  font-family: 'Itim', cursive
+
+.mb-25
+  margin-bottom: 25px
+
+.nav-breadcrumbs
+  width: 100%
+  margin: 22px 0 15px
+
+.breadcrumb
+  background: transparent
+  padding: 0
+  border: none
+    radius: 0
+  font-size: 10px
+
+  a
+    color: #808080
+    display: flex
+    align-items: center
+    &:after
+      content: '/'
+      display: inline-block
+      margin: 0 5px
+
+
+.breadcrumb-item.active
+  color: #808080
+  font-weight: bold
+
+.breadcrumb-item+.breadcrumb-item
+  padding: 0
+
+.breadcrumb-item+.breadcrumb-item::before
+  display: none
+
+.page
+  h1
+    margin: 0 0 35px
