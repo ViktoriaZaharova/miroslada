@@ -1,6 +1,6 @@
 /*==========  footer  ==========*/
 footer {
-  background: #d51218;
+  background: #d41217;
   color: #fff;
   padding: 27px 0; }
   footer .list-social {
@@ -110,7 +110,7 @@ footer {
       top: 0;
       width: 2px;
       height: 100%;
-      background: #d51218;
+      background: #d41217;
       border-radius: 2px; }
     .modal-header .close:before {
       -webkit-transform: rotate(45deg);

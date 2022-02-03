@@ -182,6 +182,9 @@ h2
 .mb-25
   margin-bottom: 25px
 
+.mb-30
+  margin-bottom: 30px
+
 .nav-breadcrumbs
   width: 100%
   margin: 22px 0 15px
@@ -192,7 +195,7 @@ h2
   border: none
     radius: 0
   font-size: 10px
-
+  margin: 0
   a
     color: #808080
     display: flex
@@ -216,3 +219,39 @@ h2
 .page
   h1
     margin: 0 0 35px
+
+.slick-slider
+  width: 100%
+
+
+.slick-slide
+  outline: none
+
+.slick-arrow
+  position: absolute
+  top: 50%
+  transform: translate(0,-50%)
+  z-index: 1
+  opacity: 1
+  cursor: pointer
+  transition: .3s ease
+  width: 76px
+  height: 76px
+  padding: 20px
+  border: solid 1px #878787
+    radius: 50%
+  background: #fff
+  &:hover
+    border-color: $accent
+    background: $accent
+    img
+      filter: brightness(0) invert(1)
+
+.slick-next
+  right: -120px
+  img
+    transform: rotate(180deg)
+
+.slick-prev
+  left: -120px
+

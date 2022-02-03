@@ -5,13 +5,13 @@ header {
 
 .phone {
   color: #fff;
-  background: #d51218;
+  background: #d41217;
   padding: 10px 38px;
   border-radius: 18px;
   font-size: 14.3px;
   font-weight: bold; }
   .phone:hover {
-    background: #d41217;
+    background: #d51218;
     color: #fff; }
 
 .logo {
@@ -90,9 +90,9 @@ header {
     .menu li a {
       color: #000; }
       .menu li a:hover {
-        color: #d51218; }
+        color: #d41217; }
     .menu li .active {
-      color: #d51218; }
+      color: #d41217; }
 
 .btn-toggle {
   cursor: pointer;
@@ -108,7 +108,7 @@ header {
     margin: 0 0 9px;
     display: block;
     width: 100%;
-    background: #d51218; }
+    background: #d41217; }
     .btn-toggle span:last-child {
       margin: 0; }
 
@@ -175,7 +175,7 @@ header {
     top: 0;
     width: 2px;
     height: 100%;
-    background: #d51218;
+    background: #d41217;
     border-radius: 2px; }
   .btn-close:before {
     -webkit-transform: rotate(45deg);

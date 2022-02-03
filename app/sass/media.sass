@@ -10,6 +10,33 @@
     h3
       font-size: 64px
 
+@media only screen and (max-width: 1840px)
+  .catalog-slider
+    padding: 0 60px
+
+  .slick-arrow
+    width: 55px
+    height: 55px
+    padding: 15px
+
+  .slick-prev
+    left: 0
+
+  .slick-next
+    right: 0
+
+@media only screen and (max-width: 1700px)
+  .page-about-content
+    min-width: auto
+
+  .company-branches-maps
+    max-width: 400px
+
+  .company-branches-wrapper
+    width: calc(100% - 400px)
+
+  .about-info-box h3
+    font-size: 40px
 @media only screen and (max-width: 1600px)
   .category-products-box
     h3
@@ -27,12 +54,49 @@
   .list-language
     font-size: 18px
 
+  .company-branches
+    padding: 30px 10px 0
+
+  .page-about-description
+    padding: 0 10px 30px
+
+  .page-about-content
+    padding: 20px
+    h3
+      margin: 0 0 20px
+      font-size: 40px
+
+  .about-info-details
+    margin: 40px 0
+
+  .about-info-details
+    margin: 30px 0 0
+
+  .certificate-product
+    padding: 0
+
 @media only screen and (max-width: 1460px)
   .category-products-box
-    width: 370px
-    min-width: 370px
+    width: 50%
+    min-width: auto
     padding: 80px 30px 40px
     //min-height: 400px
+
+  .catalog-slider
+    padding: 0
+    .slick-arrow
+      top: 50%
+
+  .certificate-item
+    min-width: auto
+
+  .product-characteristics-box
+    font-size: 18px
+    h4
+      font-size: 22px
+
+  .recommended h2
+    font-size: 40px
 
 @media only screen and (max-width: 1400px)
   .name-company
@@ -45,6 +109,68 @@
 
   .buyers-card
     padding: 30px 20px
+
+  .loc-name
+    min-width: 200px
+    width: 200px
+    font-size: 14px
+
+  .tel
+    font-size: 28px
+
+  .contacts-office .tel
+    font-size: 24px
+
+  .map
+    width: 100%
+    min-width: auto
+    margin: 20px auto
+    height: 100%
+
+  .contacts-content .box-text
+    padding: 0 20px
+
+  .address
+    font-size: 18px
+    padding: 10px 20px
+
+  .company-branches-maps
+    max-width: 300px
+
+  .company-branches-wrapper
+    width: calc(100% - 300px)
+
+  .company-branches h4
+    font-size: 34px
+
+  .about-info-box h3
+    font-size: 32px
+
+  .map-object
+    right: 160px
+
+  .distributors
+    font-size: 30px
+    margin: 0 0 40px
+
+  .product-information
+    padding: 0 20px
+    width: calc(100% - 300px)
+
+  .product-gallery
+    max-width: 300px
+
+  .product-gallery__item
+    min-height: 200px
+
+
+@media only screen and (max-width: 1300px)
+  .catalog-slider
+    .col-20
+      width: 25%
+      display: none
+      &:nth-child(-n+8)
+        display: block
 
 @media only screen and (max-width: 1200px)
   .btn-burger
@@ -88,6 +214,79 @@
 
   .category-products-row
     height: 50%
+
+  .company-branches
+    flex-direction: column
+    align-items: flex-start
+
+  .company-branches-wrapper
+    width: 100%
+    margin: 0 0 30px
+
+  .company-branches-box
+    margin: 0 0 20px
+    h4
+      line-height: normal
+      font-size: 30px
+
+  .company-branches-maps
+    max-width: none
+
+  .about-info-box
+    width: 100%
+    border: none
+    padding: 0
+    margin: 0 0 30px
+    h3
+      margin: 10px 0 15px
+      font-size: 28px
+
+  .map-object
+    max-width: 235px
+    padding: 15px
+    right: 100px
+    bottom: -30px
+    &:before
+      width: 30px
+      height: 30px
+      top: -15px
+    .phone
+      font-size: 18px
+
+  .distributors
+    font-size: 24px
+
+  .page-geography-number
+    font-size: 80px
+
+  .page-geography-content .nav-tabs .nav-link
+    margin: 0 0 20px
+    font-size: 20px
+
+  .geography-map h3
+    font-size: 30px
+
+  .catalog-slider
+    .col-20
+      width: 33.3%
+      &:nth-child(-n+8)
+        display: none
+      &:nth-child(-n+6)
+        display: block
+
+  .product-wrapper
+    border: none
+      bottom: 1px solid $accent
+    padding: 0 0 20px
+    margin: 0 0 30px
+
+  .certificate-product
+    h3
+      margin: 0 0 20px
+
+  .recommended
+    h2
+      font-size: 30px
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px)
@@ -152,6 +351,60 @@
     &:before
       opacity: .4
 
+  .map
+    height: 500px
+
+  .contacts-content:before
+    right: -15px
+
+  .tel
+    font-size: 24px
+    margin: 0 0 10px
+
+  .contacts-content .box-text
+    padding: 0
+
+  .page-about-content:before
+    width: 100%
+
+  .page-about-description .box-text
+    max-width: none
+
+  .geography-map
+    margin: 30px auto 0
+    h3
+      font-size: 24px
+
+  .map-object
+    bottom: 0
+    right: 170px
+
+  .page-geography-number
+    font-size: 60px
+
+  .distributors
+    font-size: 24px
+    margin: 0 0 20px
+    padding: 0 0 20px
+
+  .catalog-slider
+    padding: 0
+
+  .recommended-content
+    margin: 0 0 30px
+
+  .recommended
+    h2
+      max-width: none
+      margin: 0 auto 20px
+      text-align: center
+    .links-black
+      margin: 0 auto
+
+  .product-description
+    margin: 0 0 30px
+    font-size: 19px
+
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px)
   footer
@@ -196,6 +449,30 @@
     li
       margin: 0 0 10px
 
+  .map-object
+    right: 60px
+    h4
+      margin: 0 0 10px
+
+  .catalog-slider
+    .col-20
+      width: 50%
+      &:nth-child(-n+6)
+        display: none
+      &:nth-child(-n+4)
+        display: block
+    .slick-arrow
+      top: 50%
+
+  .product-information
+    width: 100%
+    padding: 0
+    margin: 30px 0 0
+
+  .product-gallery
+    width: 100%
+    max-width: none
+
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 576px)
   .phone
@@ -232,6 +509,38 @@
   .category-products-row
     flex-wrap: wrap
 
+  .mail
+    font-size: 16px
+    padding: 12px
+
+  .contacts-office .tel
+    font-size: 18px
+
+  .contacts-content h1
+    font-size: 24px
+
+  .contacts-content .nav-breadcrumbs
+    padding: 20px 0
+
+  .map-object
+    position: relative
+    margin: 20px 0 0
+    width: 100%
+    bottom: 0
+    right: 0
+    max-width: none
+    &:before
+      display: none
+
+  .page-geography-content .nav-tabs .nav-link
+    height: 50px
+
+  .product-card
+    &__img
+      height: 130px
+    &__body
+      height: calc(100% - 130px)
+
 @media only screen and (max-width: 480px)
   footer
     .logo
@@ -255,6 +564,58 @@
 
   .logo
     max-width: 100px
+
+  .catalog-slider
+    .col-20
+      width: 100%
+      &:nth-child(-n+4)
+        display: none
+      &:first-child
+        display: block
+
+  .slick-arrow
+    width: 30px
+    height: 30px
+    padding: 7px
+
+  .product-card
+    &__img
+      height: auto
+      margin: 0 auto 20px
+    &__body
+      height: auto
+
+  .product-information__head
+    flex-direction: column
+    align-items: center
+
+  .product-information-text
+    width: 100%
+    max-width: none
+    order: 1
+    margin: 20px auto 0
+
+  .product-wrapper h1
+    font-size: 26px
+    text-align: center
+
+  .product-description
+    text-align: center
+
+  .product-characteristics-box
+    width: 100%
+    border: none
+    text-align: center
+    padding: 0
+    justify-content: center
+    margin: 0 auto 20px
+
+  .product-characteristics-box__icon
+    margin: 0 auto 10px
+
+  .product-characteristics-box__text
+    border: none
+
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 420px)

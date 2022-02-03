@@ -7,6 +7,13 @@
 
 @font-face {
   font-family: "Raleway";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../fonts/Raleway/Raleway-Regular.eot");
+  src: url("../fonts/Raleway/Raleway-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Raleway/Raleway-Regular.woff") format("woff"), url("../fonts/Raleway/Raleway-Regular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Raleway";
   font-weight: 700;
   font-style: normal;
   src: url("../fonts/Raleway/Raleway-Bold.eot");
@@ -166,19 +173,19 @@ button, .btn {
 
 .btn-accent {
   color: #fff;
-  background: #d51218; }
+  background: #d41217; }
   .btn-accent:hover {
-    background: rgba(213, 18, 24, 0.8);
+    background: rgba(212, 18, 23, 0.8);
     color: #fff; }
 
 .btn-white {
   background: #fff;
-  color: #d51218;
+  color: #d41217;
   -webkit-box-shadow: 0 5px 10px rgba(11, 11, 11, 0.3);
           box-shadow: 0 5px 10px rgba(11, 11, 11, 0.3); }
   .btn-white:hover {
     color: #fff;
-    background: #d41217; }
+    background: #d51218; }
 
 .btn-border {
   color: #323232;
@@ -190,9 +197,9 @@ button, .btn {
   border-radius: 23px;
   border: solid 1px #323232; }
   .btn-border:hover {
-    background: #d51218;
+    background: #d41217;
     color: #fff;
-    border-color: #d51218; }
+    border-color: #d41217; }
 
 .svg-icon {
   display: inline-block;
@@ -211,7 +218,7 @@ strong, b {
 
 h1 {
   font-size: 40px;
-  color: #d41217;
+  color: #d51218;
   width: 100%;
   font-family: 'Itim', cursive; }
 
@@ -222,6 +229,9 @@ h2 {
 .mb-25 {
   margin-bottom: 25px; }
 
+.mb-30 {
+  margin-bottom: 30px; }
+
 .nav-breadcrumbs {
   width: 100%;
   margin: 22px 0 15px; }
@@ -231,7 +241,8 @@ h2 {
   padding: 0;
   border: none;
     border-radius: 0;
-  font-size: 10px; }
+  font-size: 10px;
+  margin: 0; }
   .breadcrumb a {
     color: #808080;
     display: -webkit-box;
@@ -257,3 +268,41 @@ h2 {
 
 .page h1 {
   margin: 0 0 35px; }
+
+.slick-slider {
+  width: 100%; }
+
+.slick-slide {
+  outline: none; }
+
+.slick-arrow {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+  z-index: 1;
+  opacity: 1;
+  cursor: pointer;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+  width: 76px;
+  height: 76px;
+  padding: 20px;
+  border: solid 1px #878787;
+    border-radius: 50%;
+  background: #fff; }
+  .slick-arrow:hover {
+    border-color: #d41217;
+    background: #d41217; }
+    .slick-arrow:hover img {
+      -webkit-filter: brightness(0) invert(1);
+              filter: brightness(0) invert(1); }
+
+.slick-next {
+  right: -120px; }
+  .slick-next img {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg); }
+
+.slick-prev {
+  left: -120px; }
