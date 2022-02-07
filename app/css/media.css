@@ -7,7 +7,8 @@
     .category-products-box h3, .category-products-box .category-products-box__title {
       font-size: 64px; }
   .category-products-box-100 {
-    width: 1000px; } }
+    width: 1000px;
+    min-width: 1000px; } }
 
 @media only screen and (max-width: 1840px) {
   .catalog-slider {

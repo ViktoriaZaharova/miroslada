@@ -133,7 +133,8 @@
     color: #fff; }
 
 .category-products-box-100 {
-  width: 1270px; }
+  width: 1270px;
+  min-width: 1270px; }
 
 /*==========  section home end  ==========*/
 /*==========  section news  ==========*/
