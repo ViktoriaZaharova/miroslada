@@ -2,11 +2,11 @@
 footer {
   background: #d41217;
   color: #fff;
-  padding: 27px 0; }
+  padding: 15px 0; }
   footer .list-social {
     margin: 0 auto; }
   footer .logo {
-    max-width: 150px; }
+    max-width: 120px; }
 
 .list-social {
   display: -webkit-box;
@@ -67,7 +67,7 @@ footer {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 36px;
-  margin: 0 90px 0 83px; }
+  margin: 0 0 0 83px; }
   .btn-burger span {
     height: 2px;
     margin: 0 0 9px;

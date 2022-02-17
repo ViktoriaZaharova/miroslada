@@ -1,7 +1,13 @@
 /*==========  header  ==========*/
 header {
   padding: 8px;
-  border-bottom: 1px solid #1d1d1b; }
+  border-bottom: 1px solid #1d1d1b;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 3;
+  background: #fff; }
 
 .phone {
   color: #fff;
