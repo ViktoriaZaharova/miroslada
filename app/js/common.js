@@ -22,6 +22,15 @@ $('.catalog-slider').slick({
     slidesToShow: 1,
     prevArrow: '<button type="button" class="slick-prev"><img src="img/prev.png" alt=""></button>',
     nextArrow: '<button type="button" class="slick-next"><img src="img/prev.png" alt=""></button>',
+    responsive: [
+        {
+            breakpoint: 576,
+            settings: {
+                dots: true,
+                arrows: false
+            }
+        }
+    ]
 });
 
 $('.product-gallery-max').slick({

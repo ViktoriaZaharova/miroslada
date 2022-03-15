@@ -314,8 +314,22 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px)
+  html, body
+    height: auto
+
+  .content
+    flex: none
+
+  .home
+    flex: none
+    .container
+      height: auto
+      .row
+        height: auto
+
   .category-products
     width: 100%
+    height: auto
 
   .list-social li a
     width: 30px

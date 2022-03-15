@@ -243,8 +243,23 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
+  html, body {
+    height: auto; }
+  .content {
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none; }
+  .home {
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none; }
+    .home .container {
+      height: auto; }
+      .home .container .row {
+        height: auto; }
   .category-products {
-    width: 100%; }
+    width: 100%;
+    height: auto; }
   .list-social li a {
     width: 30px;
     height: 30px;
