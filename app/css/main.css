@@ -110,7 +110,8 @@
     left: 0;
     top: 0;
     width: 100%;
-    height: 100%; }
+    height: 100%;
+    overflow: hidden; }
     .category-products-box__bg img {
       width: 100%;
       height: 100%;
@@ -145,6 +146,15 @@
     font-size: 22.7px; }
   .category-products-box:hover {
     color: #fff; }
+
+.fullscreen-bg__video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 100%;
+  height: auto; }
 
 .category-products-box-100 {
   width: 1270px;
