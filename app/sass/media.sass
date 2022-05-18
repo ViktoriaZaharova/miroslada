@@ -582,6 +582,8 @@
     &__body
       height: calc(100% - 130px)
 
+
+
 @media only screen and (max-width: 480px)
   footer
     .logo
@@ -606,13 +608,7 @@
   .logo
     max-width: 100px
 
-  .catalog-slider
-    .col-20
-      width: 100%
-      &:nth-child(-n+4)
-        display: none
-      &:first-child
-        display: block
+
 
   .slick-arrow
     width: 30px
@@ -659,6 +655,15 @@
 
   .wrapper
     padding: 75px 0 0 0
+
+  .catalog-slider
+    .col-20
+      display: block
+      width: 100%
+      &:nth-child(-n+8), &:nth-child(-n+6), &:nth-child(-n+4)
+        display: block
+      &:first-child
+        display: block
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 420px)
